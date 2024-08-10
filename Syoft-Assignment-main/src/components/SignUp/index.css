@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.bg-container > .sign-up-container > .sig-up-headings > p {
+.bg-container > .sign-up-container > .sign-up-headings > p {
   color: black;
 }
 @media (min-width: 768px) and (orientation:landscape) {
