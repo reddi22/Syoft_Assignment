@@ -1,0 +1,117 @@
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,41,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+.heading {
+  text-align: center;
+  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container > .sign-up-container > .sig-up-headings > p {
+  color: black;
+}
+@media (min-width: 768px) and (orientation:landscape) {
+  .bg-container {
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  .bg-container h1 {
+    font-family: Verdana;
+    font: bold;
+    color: #fff;
+
+  }
+  .bg-container p {
+    font-family: sans-serif;
+    font: bold;
+    color: #f2e4e4c7;
+
+  }
+  .heading {
+    display: block;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-left: 16%;
+    padding-right: 5%;
+  }
+}
+
+.sign-up-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 70%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-family: Tahoma;
+  }
+  
+  .sign-up-container h2 {
+    margin-bottom: 11px;
+    padding-left: 16px;
+  }
+  .sign-up-container p {
+    padding-left: 16px;
+  }
+  
+  .sign-up-container form {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  @media (min-width: 768px)  {
+    .sign-up-container {
+      min-width: 400px;
+      
+    }
+  }
+  
+  .sign-up-container input {
+    font-family: sans-serif;
+    margin-bottom: 11px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .sign-up-container button {
+    padding: 11px;
+    border: none;
+    border-radius: 11px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  
+  .sign-up-container button:hover {
+    background-color: blue;
+  }
+  
+  @media (max-width: 768px) {
+    .sign-up-container {
+      padding: 11px;
+      font-family: sans-serif;
+    }
+  }
+  .sign-up-headings {
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
